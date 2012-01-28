@@ -15,6 +15,8 @@ end
 group :test do
   gem 'rspec', '2.0.1'
   gem 'webrat', '0.7.1'
+# Remove spork below if problems arise
+	gem 'spork'
 end
 
 # Gems used only for assets and not required
